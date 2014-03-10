@@ -35,11 +35,18 @@ bool realNum::realNumber(const string &user)
 			dotCount++;
 		}
 		
-		if(dotCount > 1)
-		{
-			cout << "too many '.'\n";
-			return (false);
-		}
+	}
+	
+	if(dotCount == 0)
+	{
+		cout << "not a real number\n";
+		return (false);
+	}
+		
+	if(dotCount > 1)
+	{
+		cout << "too many '.'\n";
+		return (false);
 	}
 	
 	while((user[position]) != '\0')
