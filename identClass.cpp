@@ -1,6 +1,6 @@
 #include <string>
 using namespace std;
-#include "indentClass.h"
+#include "identClass.h"
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
 //Author: Alejandro Sosa
 //uses a for loop to iterate over an string
 //
-bool indentDFA::ident_token(string s)
+bool identDFA::ident_token(string s)
 {
     unsigned int size= s.size();
     int state = 0;
@@ -37,7 +37,7 @@ bool indentDFA::ident_token(string s)
 }
 
 
-int indentDFA::q0(char input)
+int identDFA::q0(char input)
 {
     switch(input)
     {
@@ -49,7 +49,7 @@ int indentDFA::q0(char input)
     }
 }
 
-int indentDFA::q1(char input)
+int identDFA::q1(char input)
 {
     switch(input)
     {
