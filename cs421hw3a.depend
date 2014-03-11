@@ -6,10 +6,10 @@
 	<iostream>
 	<string>
 
-1394505941 source:/home/jano/Projects/cs421hw3a/realNum.cpp
+1394506377 source:/home/jano/Projects/cs421hw3a/realNum.cpp
 	"realNum.h"
 
-1394505941 /home/jano/Projects/cs421hw3a/realNum.h
+1394506369 /home/jano/Projects/cs421hw3a/realNum.h
 	<iostream>
 	<string>
 
@@ -22,4 +22,8 @@
 
 1394505941 /home/jano/Projects/cs421hw3a/identClass.h
 	<string>
+
+1394508759 source:/home/jano/Projects/cs421hw3a/identClass.cpp
+	<string>
+	"identClass.h"
 

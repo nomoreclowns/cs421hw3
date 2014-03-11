@@ -17,8 +17,10 @@ bool identDFA::ident_token(string s)
         {
             case 0:
                 state = q0(s[index]);
+                break;
             case 1:
                 state = q1(s[index]);
+                break;
             default:
                 return false;
         }
