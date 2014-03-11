@@ -17,10 +17,18 @@ int main()
 	string user = " ";
 	int check = -1;
 	
-	cin >> user;
+	
 	
 	while(true)
 	{
+		
+		cin >> user;
+		
+		if(user == "q")
+		{
+			break;
+		}
+		
 		if((idDFA.ident_token(user)) == true)
 		{
 			check = 0;
@@ -41,16 +49,19 @@ int main()
 			case 0:
 			
 				cout << "The string is an identifier..." << endl;
+				check = -1;
 				break;
 			
 			case 1:
 			
 				cout << "The string is a real number..." <<endl;
+				check = -1;
 				break;
 			
 			case 2:
 			
 				cout << "The string is an integer number..." << endl;
+				check = -1;
 				break;
 			
 			default:
@@ -58,7 +69,8 @@ int main()
 				break;
 		}
 		
-		break;
+		cout << endl;
+
 	}
 	
 	
