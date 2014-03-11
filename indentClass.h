@@ -2,7 +2,7 @@
 using namespace std;
 
 
-class indentDFA
+class identDFA
 {
 public:
 bool ident_token(string);
