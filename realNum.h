@@ -7,11 +7,11 @@ class realNum
 {
 	protected:
 
-		string user;
-	
+		//string user;
+
 	public:
-	
-		realNum();	
+
+		realNum();
 		bool realNumber(const string &);
 		bool checkTheNumber(const char &);
 };

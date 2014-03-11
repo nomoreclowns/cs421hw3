@@ -2,10 +2,6 @@
 using namespace std;
 #include "identClass.h"
 
-int main()
-{
-    return 0;
-}
 // IDENT DFA
 //Author: Alejandro Sosa
 //uses a for loop to iterate over an string

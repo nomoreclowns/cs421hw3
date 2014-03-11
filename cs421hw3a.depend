@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1394505941 source:/home/jano/Projects/cs421hw3a/integer.cpp
+	"integer.h"
+
+1394505941 /home/jano/Projects/cs421hw3a/integer.h
+	<iostream>
+	<string>
+
+1394505941 source:/home/jano/Projects/cs421hw3a/realNum.cpp
+	"realNum.h"
+
+1394505941 /home/jano/Projects/cs421hw3a/realNum.h
+	<iostream>
+	<string>
+
+1394505941 source:/home/jano/Projects/cs421hw3a/scanMain.cpp
+	<iostream>
+	<string>
+	"identClass.h"
+	"realNum.h"
+	"integer.h"
+
+1394505941 /home/jano/Projects/cs421hw3a/identClass.h
+	<string>
+
